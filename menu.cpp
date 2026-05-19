@@ -8,7 +8,7 @@ static int selectedIndex = 0;
 static bool shouldPlay = false;
 
 // Quantas músicas cabem na tela de uma vez
-#define VISIBLE_ITEMS 4
+#define VISIBLE_ITEMS 3
 
 void menuInit() {
   u8g2.begin();
