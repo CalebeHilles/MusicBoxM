@@ -69,10 +69,14 @@ void handleButton() {
   }
 
   if ((millis() - lastDebounceTime) > DEBOUNCE_DELAY) {
-    if (buttonState == LOW && lastButtonState == HIGH) {
+    static bool lastConfirmedState = HIGH;
+    
+    if (buttonState == LOW && lastConfirmedState == HIGH) {
       menuSelect();
       Serial.println("Botao: clicado");
     }
+    
+    lastConfirmedState = buttonState;
   }
 
   lastButtonState = buttonState;
