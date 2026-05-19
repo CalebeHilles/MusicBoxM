@@ -4,7 +4,7 @@
 // ─────────────────────────────────────────
 // Harry Potter - Hedwig's Theme
 // ─────────────────────────────────────────
-static const int melodyHarryPotter[] PROGMEM = {
+static const int melodyGravityFalls[] PROGMEM = {
   NOTE_F4, NOTE_C4, NOTE_A3, NOTE_C4, NOTE_A3, NOTE_F4,
   NOTE_F4, NOTE_C4, NOTE_A3, NOTE_C4, NOTE_A3, NOTE_F4,
   NOTE_E4, NOTE_C4, NOTE_G3, NOTE_C4, NOTE_G3, NOTE_E4,
@@ -21,7 +21,7 @@ static const int melodyHarryPotter[] PROGMEM = {
   NOTE_AS4, NOTE_AS4, NOTE_AS4, NOTE_G4, NOTE_C5, NOTE_A4, NOTE_CS5, NOTE_D5
 };
 
-static const int durationsHarryPotter[] PROGMEM = {
+static const int durationsGravityFalls[] PROGMEM = {
   8,8,8,8,8,8,
   8,8,8,8,8,8,
   8,8,8,8,8,8,
@@ -100,14 +100,14 @@ static const int durationsDoReMi[] PROGMEM = {
 // ─────────────────────────────────────────
 // Gravity Falls - Theme
 // ─────────────────────────────────────────
-static const int melodyGravityFalls[] PROGMEM = {
+static const int melodyHarryPotter[] PROGMEM = {
   NOTE_E4, NOTE_G4, NOTE_A4, NOTE_E4, NOTE_G4, NOTE_A4,
   NOTE_E4, NOTE_G4, NOTE_A4, NOTE_C5, NOTE_B4,
   NOTE_E4, NOTE_G4, NOTE_A4, NOTE_E4, NOTE_G4, NOTE_A4,
   NOTE_G4, NOTE_E4
 };
 
-static const int durationsGravityFalls[] PROGMEM = {
+static const int durationsHarryPotter[] PROGMEM = {
   8,8,4,8,8,4,
   8,8,8,8,2,
   8,8,4,8,8,4,
