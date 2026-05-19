@@ -56,7 +56,7 @@ void menuUpdate() {
   do {
     // Título
     u8g2.setFont(u8g2_font_6x10_tf);
-    u8g2.drawStr(0, 10, "** Music Box **");
+    u8g2.drawStr(0, 10, "** Caixa de música **");
     u8g2.drawHLine(0, 12, 128);
 
     // Desenha os itens do menu
