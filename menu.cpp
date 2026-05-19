@@ -2,7 +2,7 @@
 #include "player.h"
 
 // Instância do display OLED (I2C, endereço padrão 0x3C)
-static U8G2_SSD1306_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0, U8X8_PIN_NONE);
+static U8G2_SSD1306_128X64_NONAME_1_HW_I2C u8g2(U8G2_R0, U8X8_PIN_NONE);
 
 static int selectedIndex = 0;
 static bool shouldPlay = false;
