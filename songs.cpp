@@ -40,24 +40,18 @@ static const int durationsGravityFalls[] PROGMEM = {
 // Star Wars - Imperial March
 // ─────────────────────────────────────────
 static const int melodyStarWars[] PROGMEM = {
+    // Frase principal (x2)
     NOTE_A4, NOTE_A4, NOTE_A4, NOTE_F4, NOTE_C5,
-    NOTE_A4, NOTE_F4, NOTE_C5, NOTE_A4,
+    NOTE_A4, NOTE_F4, NOTE_C5, NOTE_A4, REST,
     NOTE_E5, NOTE_E5, NOTE_E5, NOTE_F5, NOTE_C5,
-    NOTE_GS4, NOTE_F4, NOTE_C5, NOTE_A4,
-    NOTE_A5, NOTE_A4, NOTE_A4, NOTE_A5, NOTE_GS5, NOTE_G5,
-    NOTE_FS5, NOTE_F5, NOTE_FS5, REST, NOTE_AS4, NOTE_DS5, NOTE_D5, NOTE_CS5,
-    NOTE_C5, NOTE_B4, NOTE_C5, REST, NOTE_F4, NOTE_GS4, NOTE_F4, NOTE_A4,
-    NOTE_C5, NOTE_A4, NOTE_C5, NOTE_E5};
+    NOTE_GS4, NOTE_F4, NOTE_C5, NOTE_A4, REST,};
 
 static const int durationsStarWars[] PROGMEM = {
-    4, 4, 4, 8, 2,
-    4, 8, 2, 1,
-    4, 4, 4, 8, 2,
-    4, 8, 2, 1,
-    4, 8, 4, 4, 8, 8,
-    8, 8, 8, 8, 8, 4, 8, 8,
-    8, 8, 8, 8, 8, 4, 8, 8,
-    4, 8, 2, 1};
+    // Frase principal
+    4, 4, 4, 8, 16,
+    4, 8, 16, 2, 4,
+    4, 4, 4, 8, 16,
+    4, 8, 16, 2, 4,};
 
 // ─────────────────────────────────────────
 // Super Mario Bros - Main Theme
