@@ -78,12 +78,17 @@ static const int durationsMario[] PROGMEM = {
 // Dó Ré Mi Fá Sol (escala simples)
 // ─────────────────────────────────────────
 static const int melodyDoReMi[] PROGMEM = {
-    NOTE_C4, NOTE_D4, NOTE_E4, NOTE_F4, NOTE_G4, NOTE_A4, NOTE_B4, NOTE_C5,
-    NOTE_C5, NOTE_B4, NOTE_A4, NOTE_G4, NOTE_F4, NOTE_E4, NOTE_D4, NOTE_C4};
+    NOTE_C4, NOTE_D4, NOTE_E4, NOTE_F4, REST, NOTE_F4, NOTE_F4, // Dó, Ré, Mi, Fá, Fá, Fá
+    NOTE_C4, NOTE_D4, NOTE_C4, NOTE_D4, REST, NOTE_D4, NOTE_D4, // Dó, Ré, Dó, Ré, Ré, Ré
+    NOTE_C4, NOTE_G4, NOTE_F4, NOTE_E4, REST, NOTE_E4, NOTE_E4, // Dó, Sol, Fá, Mi, Mi, Mi
+    NOTE_C4, NOTE_D4, NOTE_E4, NOTE_F4, REST, NOTE_F4, NOTE_F4  // Dó, Ré, Mi, Fá, Fá, Fá
+};
 
 static const int durationsDoReMi[] PROGMEM = {
-    4, 4, 4, 4, 4, 4, 2,
-    4, 4, 4, 4, 4, 4, 2};
+    8, 8, 8, 4, 8, 8, 4,
+    8, 8, 8, 4, 8, 8, 4,
+    8, 8, 8, 4, 8, 8, 4,
+    8, 8, 8, 4, 8, 8, 4};
 
 // ─────────────────────────────────────────
 // Gravity Falls - Theme
